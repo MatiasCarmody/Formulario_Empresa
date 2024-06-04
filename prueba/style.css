@@ -1,0 +1,90 @@
+body {
+  background-image: url('img/logo.png'); /* Reemplaza 'nombre_de_la_imagen.jpg' con el nombre de tu imagen */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50% 50%; /* Esto hace que la imagen de fondo cubra todo el área del body */
+  color:black;
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-color: #80BFFF 
+}
+
+
+.form-register {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.controls {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.botons {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.botons:hover {
+  background-color: #0056b3;
+}
+
+h4 {
+  color: #333;
+}
+/* Estilos para los enlaces en el footer */
+footer {
+    background-color: #808080; /* Agregamos un color de fondo al footer */
+    padding: 20px 0; /* Añadimos espacio de relleno para separar el contenido del borde */
+    text-align: center; /* Centramos el texto en el footer */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .portal {
+    width: 30px; /* Reducimos el tamaño del logotipo */
+    height: auto; /* Hacemos que la altura sea automática para mantener la proporción */
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block; /* Alineamos verticalmente el logotipo */
+    vertical-align: middle; /* Alineamos verticalmente el logotipo */
+}
+
+/* Estilos para la posición de los enlaces en el footer */
+@media screen and (max-width: 768px) { /* Ajustamos el ancho máximo para dispositivos móviles */
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer a {
+        margin: 5px 0;
+    }
+
+    footer .portal {
+        width: 20px; /* Reducimos aún más el tamaño del logotipo para dispositivos móviles */
+    }
+    footer .redes{
+      width: 20px; /* Reducimos aún más el tamaño del logotipo para dispositivos móviles */
+
+    }
+}
